@@ -1,0 +1,16 @@
+.hero-bg {
+    /* 1. The Gradient: This makes the bottom dark so your white text is readable */
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 50%),
+                /* 2. The Image: Put your exact filename here */
+                url('Gemini_Generated_Image_ufafl6ufafl6ufaf.jpg'); 
+
+    /* 3. The Scaling: This makes sure it fills the whole screen without stretching */
+    background-size: cover;
+    
+    /* 4. The Position: This keeps the CubeSat in the center */
+    background-position: center;
+    
+    /* 5. The Height: 100vh means '100% of the viewport height' */
+    height: 100vh;
+    width: 100%;
+}
